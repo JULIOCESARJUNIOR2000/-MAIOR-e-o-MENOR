@@ -1,0 +1,21 @@
+programa 
+{
+    inteiro numero, fatorial, resultado=1,op
+    funcao inicio() 
+    {
+        escreva ("Digite um valor inteiro:")
+        leia (numero)
+        op = numero
+        escreva("\n-Fatorial(",numero,") = ")
+        para (fatorial = 1; fatorial <= numero; fatorial++)
+        {
+        	se(op > 2){
+        		escreva(op," x ")
+        	}
+        	  op = op - 1
+            resultado = resultado * fatorial
+        }
+
+        escreva("2 x = ",resultado)
+    }
+}
