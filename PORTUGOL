@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero,op = 0
+		inteiro maior = 0,menor = 1
+		enquanto(op == 0){
+			escreva("Digite um numero inteiro:")
+			leia(numero)
+
+			se(numero > maior){
+				maior = numero
+			}
+
+			se(numero < menor e numero > 0){
+				menor = numero
+			}
+			
+			se(numero < 0){
+				op = 1
+			}
+		}
+
+		escreva("\nMaior numero:",maior)
+		escreva("\nMenor numero:",menor)
+	}
+}
