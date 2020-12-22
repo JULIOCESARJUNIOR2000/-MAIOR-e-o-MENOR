@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero1,numero2,i,soma = 0
+		escreva("Digite 2 valores inteiros:")
+		leia(numero1,numero2)
+		se(numero1 == 2){
+			numero1 = numero1 + 1
+		}
+		se(numero1 < numero2){
+			para(i = numero1;i < numero2;i++){
+				se(i % 2 == 0){
+					soma = soma + i
+					escreva(i," + ")
+				}
+			}
+			escreva(" = ",soma)
+		}senao{
+			escreva("Valores incorretos.")
+		}
+	}
+}
