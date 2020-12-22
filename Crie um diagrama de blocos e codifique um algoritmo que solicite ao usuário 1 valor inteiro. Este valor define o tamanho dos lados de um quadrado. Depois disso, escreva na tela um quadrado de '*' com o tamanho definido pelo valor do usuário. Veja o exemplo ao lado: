@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro valor,i = 0,c = 0
+		escreva("Digite 1 valor inteiro:")
+		leia(valor)
+		para(i = 0;i < valor;i++){
+			para(c = 0;c < valor;c++){
+				escreva("* ")
+			}
+		  escreva("\n")
+		}
+	}
+}
